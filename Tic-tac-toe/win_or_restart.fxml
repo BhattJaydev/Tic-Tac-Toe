@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="WinOrRestart"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="100.0" layoutY="14.0" text="" fx:id="label">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Button layoutX="373.0" layoutY="150.0" mnemonicParsing="false" text="Yes" onAction="#yes" fx:id="button1"/>
+        <Button layoutX="464.0" layoutY="150.0" mnemonicParsing="false" text="No" onAction="#no" fx:id="button2"/>
+    </children>
+</AnchorPane>

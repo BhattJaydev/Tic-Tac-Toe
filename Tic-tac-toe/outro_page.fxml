@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OutroPage">
+   <children>
+      <Label layoutX="100.0" layoutY="14.0" text="Are you sure you want to Exit">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="373.0" layoutY="100.0" mnemonicParsing="false" text="Yes" onAction="#yes"/>
+      <Button layoutX="464.0" layoutY="100.0" mnemonicParsing="false" text="No" onAction="#no"/>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IntroPage">
+   <children>
+      <Pane layoutX="137.0" layoutY="92.0">
+         <children>
+            <TextField fx:id="field1" layoutX="70.0" />
+            <Label layoutY="5.0" text="Player 1" />
+         </children>
+      </Pane>
+      <Pane layoutX="137.0" layoutY="147.0">
+         <children>
+            <TextField fx:id="field2" layoutX="70.0" />
+            <Label layoutY="5.0" text="Player 2" />
+         </children>
+      </Pane>
+      <Button layoutX="233.0" layoutY="207.0" mnemonicParsing="false" onAction="#submitBut" prefHeight="41.0" prefWidth="122.0" style="-fx-background-color: green;" text="Submit" textFill="WHITE" fx:id="submit">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="0.31" />
+         </effect>
+      </Button>
+      <Text layoutX="92.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Tic Tac Toe">
+         <font>
+            <Font name="Algerian" size="37.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.4943181818181818" centerY="0.46116504854368934" cycleMethod="REPEAT" radius="0.3170731707317073">
+               <stops>
+                  <Stop color="#3300ff" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+   </children>
+</AnchorPane>
